@@ -1,0 +1,26 @@
+{
+  "name": "alx-intermediate-frontend",
+  "version": "1.0.0",
+  "description": "alx-intermediate-frontend project",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Promgirl65/alx-intermediate-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Promgirl65/alx-intermediate-frontend/issues"
+  },
+  "homepage": "https://github.com/Promgirl65/alx-intermediate-frontend#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  }
+}
