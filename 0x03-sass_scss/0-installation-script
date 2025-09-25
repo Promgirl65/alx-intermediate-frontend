@@ -1,0 +1,68 @@
+Sass Installation Guide (Using npm)
+🔹 What is Sass?
+
+Sass (Syntactically Awesome Stylesheets) is a CSS preprocessor that adds powerful features such as variables, nesting, mixins, and more. It helps developers write cleaner, more maintainable, and reusable stylesheets.
+
+🔹 Prerequisites
+
+Before installing Sass, make sure you have the following installed on your system:
+
+Node.js (which includes npm, the Node Package Manager)
+Check with:
+
+node -v
+npm -v
+
+🔹 Installation Steps
+
+Open Terminal/Command Prompt
+Navigate into your project directory. Example:
+
+cd ~/alx-intermediate-frontend/0x03-sass_scss
+
+
+Install Sass via npm
+Run the following command:
+
+npm install sass --save-dev
+
+
+sass → installs the official Dart Sass implementation.
+
+--save-dev → saves Sass as a dev dependency in your package.json.
+
+npm will download and add the package to your project’s node_modules folder.
+
+Verify Installation
+Use npx to check the installed version:
+
+npx sass --version
+
+
+Example output:
+
+1.93.2 compiled with dart2js 3.9.3
+
+🔹 Usage
+1. Compile a Single File
+npx sass input.scss output.css
+
+2. Compile and Watch Files
+
+Automatically recompile Sass when files change:
+
+npx sass --watch scss:css
+
+
+This will take all .scss files in the scss/ folder and output compiled .css files into the css/ folder.
+
+
+🔹 Notes
+
+node-sass is deprecated. Always use the official sass package.
+
+Use partial files (with _filename.scss) for reusable Sass modules.
+
+Import partials into your main .scss file using @use or @import.
+
+Sass is now successfully installed in your project and ready for use.
